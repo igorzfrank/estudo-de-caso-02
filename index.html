@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda de Carros</title>
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Swip -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+    <!-- HEADER INICIO -->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"> <span>Max</span>rodas</a>
+
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#vehicles">Veículos</a>
+            <a href="#services">Serviços</a>
+            <a href="#featured">Estoque</a>
+            <a href="#reviews">Clientes</a>
+            <a href="#contact">Contato</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">Login</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+
+    <!-- HEADER FINAL -->
+
+    <!-- FORMULARIO DE LOGIN -->
+
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3>Login de Usuário</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="senha" class="box">
+            <p>Esqueceu a sua senha? <a href="#">Clique aqui!</a></p>
+            <input type="submit" value="Entrar" class="btn">
+            <p>Entre com</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Não tem conta? <a href="#">Crie aqui!</a></p>
+        </form>
+
+    </div>
+
+    <!-- FORMULARIO DE LOGIN -->
+
+    <!-- HOME INICIO -->
+
+    <section class="home" id="home">
+
+        <h1 class="home-parallax" data-speed="-2">Encontre o seu carro!</h1>
+        <img src="imagens/home-img.png" class="home-parallax" data-speed="5">
+        <a href="#" class="btn home-parallax" data-speed="7">Nossos Carros</a>
+
+    </section>
+
+    <!-- HOME FINAL -->
+
+    <!-- ICONES INICIO -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+            <div class="content">
+                <h3>150+</h3>
+                <p>Filiais</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>4760+</h3>
+                <p>Carros Vendidos</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-user"></i>
+            <div class="content">
+                <h3>536+</h3>
+                <p>Clientes Satisfeitos</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3>890+</h3>
+                <p>Carros Novos</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ICONES FINAL -->
+
+    <!-- VEICULOS INICIO --> 
+
+    <section class="vehicles" id="vehicles">
+
+        <h1 class="heading"> Veiculos <span>Importados</span></h1>
+
+        <div class="swiper vehicles-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/vehicle-1.png" alt="">
+                    <div class="content">
+                        <h3>Porsche 911 Conversível</h3>
+                        <div class="price"> <span>Preço </span> R$400.000,00</div>
+                        <p>
+                            Novo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> Automático
+                            <span class="fas fa-circle"></span> Gasolina
+                            <span class="fas fa-circle"></span> 278km/h
+                        </p>
+                        <a href="#" class="btn">Visualizar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/vehicle-2.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Panamera Hybrid</h3>
+                        <div class="price"> <span>Preço </span> R$550.000,00</div>
+                        <p>
+                            Novo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> Automático
+                            <span class="fas fa-circle"></span> Gasolina
+                            <span class="fas fa-circle"></span> 288km/h
+                        </p>
+                        <a href="#" class="btn">Visualizar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/vehicle-3.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Panamera</h3>
+                        <div class="price"> <span>Preço </span> R$500.000,00</div>
+                        <p>
+                            Novo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> Automático
+                            <span class="fas fa-circle"></span> Gasolina
+                            <span class="fas fa-circle"></span> 268km/h
+                        </p>
+                        <a href="#" class="btn">Visualizar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/vehicle-4.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Boxster</h3>
+                        <div class="price"> <span>Preço </span> R$450.000,00</div>
+                        <p>
+                            Novo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> Automático
+                            <span class="fas fa-circle"></span> Gasolina
+                            <span class="fas fa-circle"></span> 281km/h
+                        </p>
+                        <a href="#" class="btn">Visualizar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/vehicle-5.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Boxster Conversível</h3>
+                        <div class="price"> <span>Preço </span> R$525.000,00</div>
+                        <p>
+                            Novo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> Automático
+                            <span class="fas fa-circle"></span> Gasolina
+                            <span class="fas fa-circle"></span> 281km/h
+                        </p>
+                        <a href="#" class="btn">Visualizar</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/vehicle-6.png" alt="">
+                    <div class="content">
+                        <h3>Porsche Cayenne</h3>
+                        <div class="price"> <span>Preço </span> R$550.000,00</div>
+                        <p>
+                            Novo
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> Automático
+                            <span class="fas fa-circle"></span> Gasolina
+                            <span class="fas fa-circle"></span> 258km/h
+                        </p>
+                        <a href="#" class="btn">Visualizar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- VEICULOS FINAL -->    
+
+    <!-- SERVIÇOS INICIO --> 
+
+    <section class="services" id="services">
+
+        <h1 class="heading"> Nossos <span>Serviços</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Venda de Carros</h3>
+                <p>Carros importados e nacionais com os melhores preços.</p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Peças de Reposição</h3>
+                <p>Peças para o seu carro importado ou nacional, com os melhores preços do país.</p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Seguro</h3>
+                <p>Seguro contra acidentes e roubos, tudo com um preço que cabe no seu bolso.</p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Reposição de Baterias</h3>
+                <p>As melhores batérias do mercado com até 3 anos de garantia.</p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>Troca de Óleo</h3>
+                <p>Faça a revisão do seu carro aqui na Max, troca de olho realizada em até 1 hora.</p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Suporte</h3>
+                <p>Suporte 24 horas para todos os nossos clientes.</p>
+                <a href="#" class="btn">Leia mais</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SERVIÇOS FINAL --> 
+
+    <!-- ESTOQUE INICIO --> 
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> Nosso <span>Estoque</span></h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-1.png" alt="">
+                    <h3>Mercedes C180 Conversível</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$179.000,00</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-2.png" alt="">
+                    <h3>Jaguar F-PACE</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$478,000,00/-</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-3.png" alt="">
+                    <h3>Ford Focus RS</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$120.000,00</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-4.png" alt="">
+                    <h3>Audi Q7</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$500.000,00</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-5.png" alt="">
+                    <h3>Kia Sportage</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$165.000,00</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-6.png" alt="">
+                    <h3>Honda Civic</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$112.000/-</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-7.png" alt="">
+                    <h3>Kia Seltos</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$140.000/-</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/car-8.png" alt="">
+                    <h3>Chevrolet Equinox</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">R$135.000,00</div>
+                    <a href="#" class="btn">Visualizar</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- ESTOQUE FINAL --> 
+
+    <!-- NOVIDADES INICIO --> 
+
+    <section class="newsletter">
+
+        <h3>Inscreva-se para receber nossas novidades</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi eaque, explicabo voluptates quis expedita.</p>
+
+        <form action="">
+            <input type="email" placeholder="email" name="" id="">
+            <input type="submit" name="Inscreva-se" id="">
+        </form>
+
+    </section>
+
+    <!-- NOVIDADES FINAL --> 
+
+    <!-- CLIENTES INICIO --> 
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> Nossos <span>Clientes</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="imagens/pic-1.png" alt="">
+                    <div class="content">
+                        <p>Comprei o meu carro importante com a Max, super recomendo!</p>
+                        <h3>João Paulo</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/pic-2.png" alt="">
+                    <div class="content">
+                        <p>Meu pai e eu compramos apenas com a Max, são super atenciosos!</p>
+                        <h3>Maria Alice</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <img src="imagens/pic-3.png" alt="">
+                    <div class="content">
+                        <p>A única loja que consegue importar os carros mais TOP's!</p>
+                        <h3>Pablo Augusto</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/pic-4.png" alt="">
+                    <div class="content">
+                        <p>Adorei ser atendida pela Maxrodas, super recomendo!</p>
+                        <h3>Lúcia Amantes</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/pic-5.png" alt="">
+                    <div class="content">
+                        <p>A loja com maior variedade de carros, que eu já encontrei!</p>
+                        <h3>Lucas Martins</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="imagens/pic-6.png" alt="">
+                    <div class="content">
+                        <p>Sonhava com um carro específico e encontrei somente na Maxrodas, recomendo!</p>
+                        <h3>Mey Oxford</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!-- CLIENTES FINAL -->     
+
+    <!-- CONTATO INICIO --> 
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> Fale <span>Conosco</span></h1>
+
+        <div class="row">
+
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113159.89248867845!2d-48.733579989637285!3d-27.585882029395886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274a45dbfb5d61%3A0x100bf170797fe362!2zU8OjbyBKb3PDqSAtIEJhcnJlaXJvcywgU8OjbyBKb3PDqSAtIFND!5e0!3m2!1spt-BR!2sbr!4v1633117518601!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <h3>Entre em contato</h3>
+                <input type="text" placeholder="nome" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="número" class="box">
+                <textarea placeholder="mensagem" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar Mensagem" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO FINAL --> 
+
+    <!-- RODAPÉ INICIL --> 
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Links Rápidos</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> Início</a>
+                <a href="#vehicles"> <i class="fas fa-arrow-right"></i> Veículos</a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i> Serviços</a>
+                <a href="#featured"> <i class="fas fa-arrow-right"></i> Estoque</a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"></i> Clientes</a>
+                <a href="#contact"> <i class="fas fa-arrow-right"></i> Contato</a>
+            </div>
+
+            <div class="box">
+                <h3>Nossas filiais</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Florianópolis</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> São José</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Palhoça</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Biguaçu</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Tubarão</a>
+            </div>
+
+            <div class="box">
+                <h3>Contato</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +55 48 99988-7766</a>
+                <a href="#"> <i class="fas fa-phone"></i> +55 48 3322-1100</a>
+                <a href="#"> <i class="fas fa-envelope"></i> maxrodas@maxrodas.com</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> São José, Brasil - 88100-100</a>
+            </div>
+
+            <div class="box">
+                <h3>Nossas Redes</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"> <i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"> <i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"> <i class="fab fa-pinterest"></i> Pinterest</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Criado por <span>Igor Frank</span> | Todos os direitos reservados.</div>
+
+    </section>
+
+    <!-- RODAPÉ FINAL --> 
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
